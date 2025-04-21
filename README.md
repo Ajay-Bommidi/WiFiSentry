@@ -55,3 +55,7 @@ cd WiFiSentry
 python3 -m venv venv
 source venv/bin/activate
 sudo python wifisentry.py
+
+External tools to install :
+
+sudo apt install aircrack-ng macchanger
