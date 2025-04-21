@@ -50,8 +50,8 @@ It is ideal for:
 ### 📦 Setup
 
 ```bash
-git clone https://github.com/yourusername/wifisentry.git
-cd wifisentry
+git clone https://github.com/Ajay-Bommidi/WiFiSentry.git
+cd WiFiSentry
 python3 -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt
+sudo python wifisentry.py
