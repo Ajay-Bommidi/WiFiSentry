@@ -2,6 +2,7 @@
  WiFiSentry 🔐📶
 
 **WiFiSentry** is a powerful and modular **Python-based wireless security testing tool** designed to assist ethical hackers and cybersecurity researchers in analyzing and testing Wi-Fi networks. It leverages a wireless adapter in monitor mode to perform real-time attacks, detections, and logging on wireless environments.
+file:///home/kali/Pictures/Screenshot_2025-04-21_05_46_14.png
 
 > ⚠️ **Legal Disclaimer:** This tool is intended for **authorized penetration testing and educational purposes only.** Unauthorized use of WiFiSentry against networks you do not own or have explicit permission to test is **illegal and unethical.**
 
@@ -55,7 +56,33 @@ cd WiFiSentry
 python3 -m venv venv
 source venv/bin/activate
 sudo python wifisentry.py
+```
 
 External tools to install :
 
 sudo apt install aircrack-ng macchanger
+
+📚 Example Use Cases
+Audit a company Wi-Fi to check for rogue access points
+
+Simulate denial of service using beacon flooding or deauth
+
+Capture WPA2 handshakes for training on brute-force or dictionary attacks
+
+Detect Evil Twin APs during red team assessments
+
+✅ Current Modules
+ Deauthentication Attack
+
+ Beacon Flooding
+
+ Evil Twin Detection
+
+ WPA Handshake Capture
+
+ Real-time Client Tracker
+
+ 🧠 A Note on Ethics
+WiFiSentry is built with ethical hacking principles in mind. Please respect privacy and only test on networks you are authorized to audit. Misusing this tool can result in legal consequences. Always stay on the right side of cybersecurity.
+
+
