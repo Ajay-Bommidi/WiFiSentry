@@ -2,9 +2,7 @@
  WiFiSentry 🔐📶
 
 **WiFiSentry** is a powerful and modular **Python-based wireless security testing tool** designed to assist ethical hackers and cybersecurity researchers in analyzing and testing Wi-Fi networks. It leverages a wireless adapter in monitor mode to perform real-time attacks, detections, and logging on wireless environments.
-
-![Screenshot_2025-04-21_05_46_14](https://github.com/user-attachments/assets/10a9d528-6687-475c-8d8d-41b87456a359)
-
+![Screenshot_2025-04-21_05_46_14](https://github.com/user-attachments/assets/d3e07d5c-7239-4f88-878d-8e12d9e358e8)
 
 > ⚠️ **Legal Disclaimer:** This tool is intended for **authorized penetration testing and educational purposes only.** Unauthorized use of WiFiSentry against networks you do not own or have explicit permission to test is **illegal and unethical.**
 
@@ -58,7 +56,10 @@ cd WiFiSentry
 python3 -m venv venv
 source venv/bin/activate
 sudo python wifisentry.py
+
 ```
+retry if it get any error :
+sudo python3 wifisentry.py
 
 External tools to install :
 
