@@ -1,5 +1,7 @@
-<xaiArtifact artifact_id="README.md">
- WiFiSentry 🔐📶
+## WiFiSentry 🔐📶
+![image](https://github.com/user-attachments/assets/52ae9de6-ec2a-4fa1-b9b8-fab7263e17bd)
+
+
 
 **WiFiSentry** is a powerful and modular **Python-based wireless security testing tool** designed to assist ethical hackers and cybersecurity researchers in analyzing and testing Wi-Fi networks. It leverages a wireless adapter in monitor mode to perform real-time attacks, detections, and logging on wireless environments.
 ![Screenshot_2025-04-21_05_46_14](https://github.com/user-attachments/assets/d3e07d5c-7239-4f88-878d-8e12d9e358e8)
